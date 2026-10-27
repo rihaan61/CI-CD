@@ -12,7 +12,7 @@ def test_discount_boundary():
 
 def test_total_with_discount():
     # Intentionally incorrect for the first CI run
-    assert calculate_total(400) == 380.00
+    assert calculate_total(400) == 378.00
 
 
 def test_negative_amount():
